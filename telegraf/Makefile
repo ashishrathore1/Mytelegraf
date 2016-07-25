@@ -1,6 +1,6 @@
 UNAME := $(shell sh -c 'uname')
-#VERSION := $(shell sh -c 'git describe --always --tags')
-VERSION := $(shell sh -c 'cat version.properties')
+VERSION := $(shell sh -c 'git describe --always --tags')
+#VERSION := $(shell sh -c 'cat version.properties')
 ifdef GOBIN
 PATH := $(GOBIN):$(PATH)
 else
